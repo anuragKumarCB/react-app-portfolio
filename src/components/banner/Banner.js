@@ -6,7 +6,7 @@ const Banner = () => {
     return (
         <section
             id='home'
-            className='w-full pt-10 pb-20 flex items-center border-b-[1px] font-titleFont border-b-black'
+            className='w-full pt-20 pb-20 flex items-center border-b-[1px] font-titleFont border-b-black'
         >
             <LeftBanner />
             <div className='w-1/2 flex justify-center items-center relative'>
