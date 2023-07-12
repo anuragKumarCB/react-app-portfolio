@@ -38,13 +38,13 @@ const LeftBanner = () => {
                         Find me in
                     </h2>
                     <div className='flex gap-4'>
-                        <span className='bannerIcon hover:hoverEffect'>
+                        <span className='bannerIcon hover:bannerIconHover'>
                             <FaFacebook />
                         </span>
-                        <span className='bannerIcon hover:hoverEffect'>
+                        <span className='bannerIcon hover:bannerIconHover'>
                             <FaTwitter />
                         </span>
-                        <span className='bannerIcon hover:hoverEffect'>
+                        <span className='bannerIcon hover:bannerIconHover'>
                             <FaLinkedin />
                         </span>
                     </div>
@@ -54,13 +54,13 @@ const LeftBanner = () => {
                         Best Skill in
                     </h2>
                     <div className='flex gap-4'>
-                        <span className='bannerIcon hover:hoverEffect'>
+                        <span className='bannerIcon hover:bannerIconHover'>
                             <FaReact />
                         </span>
-                        <span className='bannerIcon hover:hoverEffect'>
+                        <span className='bannerIcon hover:bannerIconHover'>
                             <SiTailwindcss />
                         </span>
-                        <span className='bannerIcon hover:hoverEffect'>
+                        <span className='bannerIcon hover:bannerIconHover'>
                             <SiFigma />
                         </span>
                         {/* <span className='bannerIcon hover:hoverEffect'>
