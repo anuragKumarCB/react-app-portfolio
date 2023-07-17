@@ -8,14 +8,14 @@ const Skills = () => {
         <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1, transition: { duration: .5 } }}
-            className='w-full flex gap-20'
+            className='w-full flex flex-col lgl:flex-row lgl:gap-20'
         >
-            <div className='w-1/2'>
+            <div className='w-full lgl:w-1/2'>
                 <div className='py-12 font-titleFont'>
                     <p className='text-sm text-designColor tracking-[4px] uppercase'>Features</p>
-                    <h2 className='text-4xl font-bold'>Development Skills</h2>
+                    <h2 className='text-3xl lgl:text-4xl font-bold'>Development Skills</h2>
                 </div>
-                <div className=' w-full'>
+                <div className='w-full'>
                     <SkillCard
                         title="React"
                         percentage="90%"
@@ -45,10 +45,10 @@ const Skills = () => {
 
                 </div>
             </div>
-            <div className='w-1/2'>
+            <div className='w-full lgl:w-1/2'>
                 <div className='py-12 font-titleFont'>
                     <p className='text-sm text-designColor tracking-[4px] uppercase'>Features</p>
-                    <h2 className='text-4xl font-bold'>Designing Skills</h2>
+                    <h2 className='text-3xl lgl:text-4xl font-bold'>Designing Skills</h2>
                 </div>
                 <div className='w-full '>
                     <SkillCard

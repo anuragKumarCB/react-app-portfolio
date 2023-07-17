@@ -5,16 +5,16 @@ import { SiTailwindcss, SiFigma, SiNextdotjs } from "react-icons/si"
 
 const LeftBanner = () => {
     const [text] = useTypewriter({
-        words: ["Professional Coder.", "Full Stack Developer.", "Professional Photographer.", "Freelancer."],
+        words: ["Professional Coder.", "Full Stack Developer.", "Photographer.", "Freelancer."],
         loop: true,
         typeSpeed: 30,
         deleteSpeed: 15,
         delaySpeed: 2000,
     })
     return (
-        <div className='w-1/2 flex flex-col gap-20'>
+        <div className='w-full lgl:w-1/2 flex flex-col gap-20 pt-5 xl:pt-0'>
             <div className='flex flex-col gap-3'>
-                <h4 className='text-lg font-normal'>Welcome to the future of Web Application</h4>
+                <h4 className='text-lg font-normal'>Future of Web Application</h4>
                 <h1 className='text-6xl font-bold text-white'>
 
                     Hi, I'm{" "}
@@ -32,7 +32,7 @@ const LeftBanner = () => {
                     I use animation as third dimesion by which to simplify experiences and kuiding thro each and every interaction. I'm not adding motion just to spruce things up, but doing it in ways that
                 </p>
             </div>
-            <div className='flex justify-between'>
+            <div className='flex flex-col gap-6 mdl:flex-row mdl:gap-20 lg:flex-col lg:gap-6 xl:flex-row xl:gap-20  xl:gap-0'>
                 <div>
                     <h2 className='text-base uppercase font-titleFont mb-4'>
                         Find me in

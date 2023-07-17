@@ -15,7 +15,7 @@ const Projects = () => {
                     desc="My Projects"
                 />
             </div>
-            <div className='grid grid-cols-3 gap-14'>
+            <div className='grid gap-8 grid-cols-1 mdl:grid-cols-2 xl:grid-cols-3 xl:gap-14'>
                 <ProjectCards
                     media={projectOne}
                     title="Gym App"
